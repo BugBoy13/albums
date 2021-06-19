@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         justifyContent: 'flex-start',
         borderColor: '#ddd',
-        position: 'relative'
+        position: 'relative',
+        flexDirection: 'row'
     }
 })
 

@@ -6,7 +6,10 @@ import Header from '../components/Header';
 const HomeScreen = () => {
 
     return (
-        <View>
+        <View
+            style={{
+                flex: 1
+            }} >
             <Header
                 headerText={'Albums'} />
             <AlbumList />
